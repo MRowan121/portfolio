@@ -46,9 +46,9 @@ Students will create their own portfolio page/site and prepare a presentation in
    ```sh
    npm install
    ```
-4. Run npm run dev
+4. Run npm start
    ```sh
-   npm run dev
+   npm start
    ```
 5. Use the Link that is given in the Terminal & Open in Browser
    ```sh
