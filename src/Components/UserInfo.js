@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const UserInfo = ({ user }) => {
   return (
-    <section className="pt-10 md:flex md:flex-row md:justify-center md:items-center">
+    <section className="md:pt-10 md:flex md:flex-row md:justify-center md:items-center">
       <div className="static mx-auto bg-gradient-to-b from-teal-500 rounded-full w-72 h-72 mt-20 overflow-hidden md:h-96 md:w-96">
         {user && (
           <img

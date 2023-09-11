@@ -7,7 +7,7 @@ const Project = ({ image, alt, url }) => {
         <img
           src={image}
           alt={alt}
-          className="rounded-lg object-cover h-full w-full"
+          className="rounded-lg object-cover h-full w-full border-2 dark:border-0"
         />
       </a>
     </div>
