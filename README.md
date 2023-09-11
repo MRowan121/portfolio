@@ -37,10 +37,10 @@ Students will create their own portfolio page/site and prepare a presentation in
 
 ## Set-Up Instructions
 
-1. Fork the Repo from the [Repository](https://github.com/MRowan121/instaclone)
+1. Fork the Repo from the [Repository](https://github.com/fasttrackd-student-work/js-assignment-portfolio-MRowan121)
 2. Clone the repo
    ```sh
-   git@github.com:MRowan121/instaclone.git
+   git@github.com:fasttrackd-student-work/js-assignment-portfolio-MRowan121.git
    ```
 3. Install NPM packages
    ```sh
