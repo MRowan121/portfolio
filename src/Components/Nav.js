@@ -30,7 +30,7 @@ const Nav = ({ darkMode, toggleDarkMode }) => {
         </li>
         <li>
           <a
-            className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 text-xl text-white px-4 py-2 rounded-md ml-5"
+            className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 text-xl text-white px-4 py-2 rounded-md ml-5 hover:animate-pulse"
             href={resume}
             download="M Rowan Resume"
           >

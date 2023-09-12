@@ -33,7 +33,7 @@ const UserInfo = ({ user }) => {
           and intuitive web applications.
         </p>
         <Link
-          className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-xl px-4 py-2 mt-3 rounded-md"
+          className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 text-white text-xl px-4 py-2 mt-3 rounded-md hover:animate-pulse"
           to="/portfolio"
         >
           Portfolio

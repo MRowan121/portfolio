@@ -23,7 +23,7 @@ const Portfolio = ({ repos }) => {
       </div>
       <div className="flex justify-center pb-8">
         <Link
-          className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 text-xl text-white px-4 py-2 rounded-md"
+          className="font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 text-xl text-white px-4 py-2 rounded-md hover:animate-pulse"
           to="/"
         >
           Home
