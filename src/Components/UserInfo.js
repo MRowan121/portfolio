@@ -10,7 +10,6 @@ const UserInfo = ({ user }) => {
             src={`${user["avatar_url"]}`}
             className="object-cover h-full"
             alt={`${user.name} Profile Picture`}
-            // alt="User Avatar"
           />
         )}
       </div>
