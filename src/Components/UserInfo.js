@@ -15,13 +15,15 @@ const UserInfo = ({ user }) => {
       </div>
       <div className="text-center p-10">
         {user && (
-          <h2 className="text-5xl py-2 font-burtons text-teal-600 font-medium md:text-6xl">
-            {user.name}
-          </h2>
+          <>
+            <h2 className="text-5xl py-2 font-burtons text-teal-600 font-medium md:text-6xl">
+              {user.name}
+            </h2>
+            <h3 className="font-burtons text-2xl py-2 md:text-3xl dark:text-white">
+              {user.bio}
+            </h3>
+          </>
         )}
-        <h3 className="font-burtons text-2xl py-2 md:text-3xl dark:text-white">
-          Software Developer
-        </h3>
         <p className="text-md pt-5 pb-8 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
           I'm an experienced software developer, specializing in front-end web
           development, with a passion for creating high-quality, responsive user
