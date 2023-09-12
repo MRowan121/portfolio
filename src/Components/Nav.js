@@ -6,24 +6,24 @@ import resume from "../Utilities/M_Rowan_Resume.pdf";
 const Nav = ({ darkMode, toggleDarkMode }) => {
   return (
     <nav className="pt-10 pb-3 flex justify-between sticky top-0 bg-white dark:bg-gray-900">
-      <div className="text-3xl flex justify-center gap-6 py-3 text-gray-600 dark:text-white sm:text-4xl">
+      <div className="text-3xl flex justify-center gap-6 py-3  dark:text-white sm:text-4xl">
         <a href="https://www.linkedin.com/in/mrowan121/">
-          <AiFillLinkedin />
+          <AiFillLinkedin className="icon" />
         </a>
         <a href="https://github.com/MRowan121">
-          <AiFillGithub />
+          <AiFillGithub className="icon" />
         </a>
       </div>
       <ul className="flex items-center">
         <li>
           {darkMode ? (
             <BsFillSunFill
-              className="cursor-pointer text-3xl dark:fill-white"
+              className="cursor-pointer text-3xl  dark:fill-white icon"
               onClick={toggleDarkMode}
             />
           ) : (
             <BsFillMoonStarsFill
-              className="cursor-pointer text-3xl dark:fill-white"
+              className="cursor-pointer text-3xl  dark:fill-white icon"
               onClick={toggleDarkMode}
             />
           )}

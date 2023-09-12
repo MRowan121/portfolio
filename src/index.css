@@ -20,3 +20,9 @@ code {
   font-family: "burtons";
   src: url("../public/Burtons.otf");
 }
+
+@layer components {
+  .icon {
+    @apply cursor-pointer hover:scale-125 transition-transform duration-200 ease-out;
+  }
+}
