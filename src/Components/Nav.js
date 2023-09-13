@@ -7,10 +7,14 @@ const Nav = ({ darkMode, toggleDarkMode }) => {
   return (
     <nav className="pt-10 pb-3 flex justify-between sticky top-0 bg-white dark:bg-gray-900">
       <div className="text-3xl flex justify-center gap-6 py-3  dark:text-white sm:text-4xl">
-        <a href="https://www.linkedin.com/in/mrowan121/">
+        <a
+          href="https://www.linkedin.com/in/mrowan121/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillLinkedin className="icon" />
         </a>
-        <a href="https://github.com/MRowan121">
+        <a href="https://github.com/MRowan121" target="_blank" rel="noreferrer">
           <AiFillGithub className="icon" />
         </a>
       </div>
