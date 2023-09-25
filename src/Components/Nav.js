@@ -1,7 +1,7 @@
 import React from "react";
 import { BsFillMoonStarsFill, BsFillSunFill } from "react-icons/bs";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import resume from "../Utilities/M_Rowan_Resume.pdf";
+import resume from "../Utilities/M-Rowan-Resume.pdf";
 
 const Nav = ({ darkMode, toggleDarkMode }) => {
   return (
