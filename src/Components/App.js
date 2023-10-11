@@ -6,6 +6,7 @@ import Nav from "./Nav";
 import UserInfo from "./UserInfo";
 import Portfolio from "./Portfolio";
 import { Route, Routes } from "react-router-dom";
+import ContactForm from "./ContactForm";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -34,6 +35,7 @@ function App() {
         <Routes>
           <Route path="/" element={<UserInfo user={user} />} />
           <Route path="/portfolio" element={<Portfolio repos={repos} />} />
+          <Route path="/contact" element={<ContactForm />} />
         </Routes>
       </main>
     </div>
